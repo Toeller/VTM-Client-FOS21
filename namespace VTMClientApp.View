@@ -1,0 +1,11 @@
+namespace VTMClientApp.View
+{
+    public interface IVtmClientView
+    {
+        event Action StartzustandClicked;
+        event Action BetriebsknopfClicked;
+        event Action EntleerenClicked;
+
+        void SetStatus(string status);
+    }
+}
