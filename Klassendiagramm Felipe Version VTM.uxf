@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>210</y>
+      <w>220</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>View
+--
+- viewState: string
+
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>30</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Programm
+--
+
+
+--
++ Main()
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>530</y>
+      <w>210</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>UIController
+--
+- viewState: string
+--
++ onPlayClicked()
++ onPauseClicked()
++ onNextClicked()
++ onLastClicked()
++ onVolumeChanged()
++ onSearchSong()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>140</y>
+      <w>220</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>Model
+--
+
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
